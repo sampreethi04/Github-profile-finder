@@ -1,21 +1,43 @@
 # GitHub Profile Finder
 
-A responsive web application that allows users to search GitHub profiles and repositories using the **GitHub REST API**. Users can search by **GitHub username** or **repository name**, view profile details and repositories, switch between **Light** and **Dark** themes, and manage recent search history through a clean and interactive interface.
+A responsive web application that allows users to search GitHub profiles and repositories using the **GitHub REST API**. Users can search by **GitHub username** or **repository name**, view detailed profile information and repositories, switch between **Light** and **Dark** themes, and manage recent search history through a clean and interactive interface.
 
 ---
 
 ## Features
 
-- Search GitHub users by username
-- Search repositories by repository name
-- View profile information including avatar, bio, location, company, followers, and following
-- Direct link to the user's GitHub profile
-- Display public repositories
-- Toggle between Light Mode and Dark Mode
-- Maintain recent search history
-- Clear search history with a single click
-- Handles invalid usernames and repository names gracefully
-- Responsive design for desktop and mobile devices
+- **User Profile Search**  
+  Search any GitHub user by entering their username and instantly retrieve their public profile information.
+
+- **Repository Search**  
+  Search GitHub repositories by repository name and browse matching public repositories.
+
+- **Detailed Profile Information**  
+  Displays the user's profile picture, name, bio, location, company, followers, following count, and total public repositories.
+
+- **Repository Listing**  
+  View all public repositories of the selected user along with repository details.
+
+- **Profile Navigation**  
+  Provides a direct link to the user's GitHub profile for easy access.
+
+- **Light & Dark Theme**  
+  Switch between Light Mode and Dark Mode for a personalized browsing experience.
+
+- **Recent Search History**  
+  Automatically stores recent searches, allowing users to quickly revisit previously searched usernames or repositories.
+
+- **Clear Search History**  
+  Remove all saved search history with a single click.
+
+- **Error Handling**  
+  Displays appropriate error messages for invalid usernames, unavailable repositories, or failed API requests.
+
+- **Responsive Design**  
+  Optimized interface that provides a seamless experience across desktop, tablet, and mobile devices.
+
+- **GitHub REST API Integration**  
+  Fetches real-time data directly from the GitHub REST API to display accurate and up-to-date information.
 
 ---
 
@@ -64,14 +86,14 @@ No additional installation or dependencies are required.
 
 ## How It Works
 
-1. Select the search type (**User** or **Repository**) from the dropdown.
+1. Select the search type (**User** or **Repository**) from the dropdown menu.
 2. Enter a GitHub username or repository name.
 3. Click the **Search** button.
-4. The application fetches data from the GitHub REST API.
-5. Profile details or repository information are displayed.
+4. The application sends a request to the GitHub REST API.
+5. Profile information or repository details are fetched and displayed.
 6. Every successful search is automatically saved in the **Recent Searches** section.
-7. Users can click **Clear History** to remove all saved searches.
-8. Switch between **Light Mode** and **Dark Mode** using the theme toggle.
+7. Users can clear the search history using the **Clear History** button.
+8. Switch between **Light Mode** and **Dark Mode** at any time using the theme toggle.
 
 ---
 
@@ -79,7 +101,7 @@ No additional installation or dependencies are required.
 
 ### Home Page
 
-![Home Page](home-page.png)
+![Home Page](homepage.png)
 
 ---
 
@@ -97,7 +119,7 @@ No additional installation or dependencies are required.
 
 ### Theme Toggle (Light/Dark Mode)
 
-![Theme Toggle](themetoggle.png)
+![Theme Toggle](theme-toggle.png)
 
 ---
 
