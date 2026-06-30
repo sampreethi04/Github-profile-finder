@@ -4,19 +4,20 @@ A responsive web application that allows users to search for GitHub profiles usi
 
 ---
 
-##  Features
+## Features
 
--  Search GitHub users by username
--  Display profile picture, name, bio, and location
--  View public repositories
--  Show followers and following count
--  Direct link to the user's GitHub profile
--  Displays an error message for invalid usernames
--  Responsive design for desktop and mobile devices
+- Search GitHub users by username
+- Display profile picture, name, bio, and location
+- View public repositories
+- Show followers and following count
+- Direct link to the user's GitHub profile
+- Switch between Light Mode and Dark Mode
+- Displays an error message for invalid usernames
+- Responsive design for desktop and mobile devices
 
 ---
 
-##  Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -25,27 +26,26 @@ A responsive web application that allows users to search for GitHub profiles usi
 
 ---
 
-##  Project Structure
+## Project Structure
 
-```
+```text
 Github-profile-finder/
 │
 ├── index.html
 ├── style.css
 ├── script.js
 ├── README.md
-└── screenshots/
-    ├── home.png
-    ├── search.png
-    ├── repositories.png
-    └── error.png
+├── homepage.png
+├── product-list.png
+├── repositories.png
+└── invalidname.png
 ```
 
 ---
 
-##  Installation
+## Installation
 
-1. Clone the repository
+1. Clone the repository.
 
 ```bash
 git clone https://github.com/sampreethi04/Github-profile-finder.git
@@ -53,54 +53,51 @@ git clone https://github.com/sampreethi04/Github-profile-finder.git
 
 2. Open the project folder.
 
-3. Open **index.html** in your preferred web browser.
+3. Open `index.html` in any modern web browser.
 
 No additional installation or dependencies are required.
 
 ---
 
-## 📖 How It Works
+## How It Works
 
-1. Enter a GitHub username.
+1. Enter a GitHub username in the search box.
 2. Click the **Search** button.
 3. The application sends a request to the GitHub REST API.
-4. The retrieved profile information is displayed, including repositories and follower statistics.
-5. If the username does not exist, an appropriate error message is shown.
+4. The user's public profile information is fetched and displayed.
+5. Users can switch between **Light Mode** and **Dark Mode** using the theme toggle.
+6. If the username is invalid, an appropriate error message is displayed.
 
 ---
 
-##  Screenshots
+## Screenshots
 
-###  Home Page
+### Home Page
 
-![Home Page](screenshots/homepage.png)
-
----
-
-###  Search Result
-
-![Search Result](screenshots/search.png)
+![Home Page](homepage.png)
 
 ---
 
-###  User Repositories
+### Search Result
 
-![Repositories](screenshots/repositories.png)
-
----
-
-###  Invalid Username
-
-![Error Message](screenshots/invalidname.png)
+![Search Result](product-list.png)
 
 ---
 
+### User Repositories
 
-
+![Repositories](repositories.png)
 
 ---
 
-##  Author
+### Invalid Username
+
+![Invalid Username](invalidname.png)
+
+---
+
+## Author
 
 **Sampreethi Kookutla**
 
+GitHub: https://github.com/sampreethi04
