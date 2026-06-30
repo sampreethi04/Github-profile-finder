@@ -79,7 +79,7 @@ No additional installation or dependencies are required.
 
 ### Home Page
 
-![Home Page](homepage.png)
+![Home Page](home-page.png)
 
 ---
 
@@ -97,7 +97,7 @@ No additional installation or dependencies are required.
 
 ### Theme Toggle (Light/Dark Mode)
 
-![Theme Toggle](theme-toggle.png)
+![Theme Toggle](themetoggle.png)
 
 ---
 
