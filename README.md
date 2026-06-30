@@ -4,7 +4,7 @@ A responsive web application that allows users to search for GitHub profiles usi
 
 ---
 
-## 🚀 Features
+##  Features
 
 -  Search GitHub users by username
 -  Display profile picture, name, bio, and location
@@ -16,7 +16,7 @@ A responsive web application that allows users to search for GitHub profiles usi
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - HTML5
 - CSS3
@@ -25,7 +25,7 @@ A responsive web application that allows users to search for GitHub profiles usi
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Github-profile-finder/
@@ -43,7 +43,7 @@ Github-profile-finder/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository
 
@@ -69,51 +69,38 @@ No additional installation or dependencies are required.
 
 ---
 
-## 📷 Screenshots
+##  Screenshots
 
-### 🏠 Home Page
+###  Home Page
 
 ![Home Page](screenshots/homepage.png)
 
 ---
 
-### 🔍 Search Result
+###  Search Result
 
 ![Search Result](screenshots/search.png)
 
 ---
 
-### 📂 User Repositories
+###  User Repositories
 
 ![Repositories](screenshots/repositories.png)
 
 ---
 
-### ⚠️ Invalid Username
+###  Invalid Username
 
 ![Error Message](screenshots/invalidname.png)
 
 ---
 
-## 🔮 Future Enhancements
 
-- 🌙 Dark Mode
-- ⭐ Display starred repositories
-- 📄 Repository pagination
-- 🔎 Repository search and filtering
-- 📊 GitHub contribution statistics
-- 🕒 Recent activity section
+
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Sampreethi Kookutla**
 
-GitHub: https://github.com/sampreethi04
-
----
-
-## 📜 License
-
-This project is developed for educational and learning purposes.
