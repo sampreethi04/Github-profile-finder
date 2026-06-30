@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GitHub Profile Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark">
+
+<div class="container">
+    <div class="header">
+        <h1>GitHub Profile Finder</h1>
+        <button id="themeToggle">🌙</button>
+    </div>
+
+    <div class="search">
+        <input type="text" id="username" placeholder="Enter GitHub username">
+        <button id="searchBtn">Search</button>
+    </div>
+
+    <!-- Recent history -->
+    <div class="history">
+        <h4>Recent Searches</h4>
+        <button id="clearHistory">Clear History</button>
+        <div id="recent" class="recent"></div>
+    </div>
+
+    <div id="profile" class="profile"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
