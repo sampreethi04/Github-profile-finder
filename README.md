@@ -1,17 +1,17 @@
 # GitHub Profile Finder
 
-A responsive web application that allows users to search for GitHub profiles using the **GitHub REST API**. The application retrieves and displays public user information, including profile details, repositories, followers, and following count through an intuitive and user-friendly interface.
+A responsive web application that allows users to search for GitHub profiles using the **GitHub REST API**. The application retrieves and displays public GitHub user information, including profile details, repositories, followers, and following count through a clean and user-friendly interface. It also supports switching between **Light Mode** and **Dark Mode** for an enhanced user experience.
 
 ---
 
 ## Features
 
 - Search GitHub users by username
-- Display profile picture, name, bio, and location
+- Display profile picture, name, bio, location, and company
 - View public repositories
 - Show followers and following count
 - Direct link to the user's GitHub profile
-- Switch between Light Mode and Dark Mode
+- Toggle between Light Mode and Dark Mode
 - Displays an error message for invalid usernames
 - Responsive design for desktop and mobile devices
 
@@ -38,6 +38,7 @@ Github-profile-finder/
 ├── homepage.png
 ├── product-list.png
 ├── repositories.png
+├── theme-toggle.png
 └── invalidname.png
 ```
 
@@ -64,9 +65,9 @@ No additional installation or dependencies are required.
 1. Enter a GitHub username in the search box.
 2. Click the **Search** button.
 3. The application sends a request to the GitHub REST API.
-4. The user's public profile information is fetched and displayed.
+4. The retrieved profile information, repositories, and follower statistics are displayed.
 5. Users can switch between **Light Mode** and **Dark Mode** using the theme toggle.
-6. If the username is invalid, an appropriate error message is displayed.
+6. If the username does not exist, an appropriate error message is displayed.
 
 ---
 
@@ -86,13 +87,30 @@ No additional installation or dependencies are required.
 
 ### User Repositories
 
-![Repositories](repositories.png)
+![User Repositories](repositories.png)
+
+---
+
+### Theme Toggle (Light/Dark Mode)
+
+![Theme Toggle](theme-toggle.png)
 
 ---
 
 ### Invalid Username
 
 ![Invalid Username](invalidname.png)
+
+---
+
+## Future Enhancements
+
+- Repository search and filtering
+- Display starred repositories
+- Recent GitHub activity
+- Pagination for repositories
+- Profile comparison feature
+- Bookmark favorite GitHub profiles
 
 ---
 
